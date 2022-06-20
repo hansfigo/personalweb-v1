@@ -2,6 +2,9 @@
 module.exports = {
   content: ["index.html"],
   theme: {
+    containerHero:{
+      center: true,
+    },
     container:{
       center: true,
       padding : '16px',
