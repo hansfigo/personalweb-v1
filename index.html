@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html class="scroll-smooth overflow-x-hidden" lang="en">
+<html class="scroll-smooth o" lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
     <title>Personal Blog Tailwind</title>
     <link href="dist/output.css" rel="stylesheet">
 
@@ -24,36 +24,38 @@
                         <span class="hamburger-line transition duration-200 ease-in-out"></span>
                         <span class="hamburger-line origin-bottom-left transition duration-300 ease-in-out"></span>
                     </button>
-                    <nav id="nav-menu"
-                        class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full xl:block xl:static xl:max-w-full xl:bg-transparent xl:shadow-none xl:rounded-none">
-                        <ul class="block xl:flex">
-                            <li class="group">
-                                <a href="#Home"
-                                    class="flex py-2 px-10 text-base font-semibold text-slate-500 hover:text-primary hover:font-bold transition duration-300 ease-in-out">Beranda</a>
-                            </li>
-                            <li class="group">
-                                <a href="#About"
-                                    class="flex py-2 px-10 text-base font-semibold text-slate-500 hover:text-primary hover:font-bold transition duration-300 ease-in-out">Tentang
-                                    Saya</a>
-                            </li>
-                            <li class="P">
-                                <a href="#Portfolio"
-                                    class="flex py-2 px-10 text-base font-semibold text-slate-500 hover:text-primary hover:font-bold transition duration-300 ease-in-out">Portofolio</a>
-                            </li>
-                            <li class="P">
-                                <a href="#Pengalaman"
-                                    class="flex py-2 px-10 text-base font-semibold text-slate-500 hover:text-primary hover:font-bold transition duration-300 ease-in-out">Pengalaman</a>
-                            </li>
-                            <li class="P">
-                                <a href="#Blog"
-                                    class="flex py-2 px-10 text-base font-semibold text-slate-500 hover:text-primary hover:font-bold transition duration-300 ease-in-out">Blog</a>
-                            </li>
-                            <li class="P">
-                                <a href="#Kontak"
-                                    class="flex py-2 px-10 text-base font-semibold text-slate-500 hover:text-primary hover:font-bold transition duration-300 ease-in-out">Kontak</a>
-                            </li>
-                        </ul>
-                    </nav>
+                    <div class="transition">
+                        <nav id="nav-menu"
+                            class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full xl:block xl:static xl:max-w-full xl:bg-transparent xl:shadow-none xl:rounded-none">
+                            <ul class="block xl:flex">
+                                <li class="group">
+                                    <a href="#Home"
+                                        class="flex py-2 px-10 text-base font-semibold text-slate-500 hover:text-primary hover:font-bold transition duration-300 ease-in-out">Beranda</a>
+                                </li>
+                                <li class="group">
+                                    <a href="#About"
+                                        class="flex py-2 px-10 text-base font-semibold text-slate-500 hover:text-primary hover:font-bold transition duration-300 ease-in-out">Tentang
+                                        Saya</a>
+                                </li>
+                                <li class="P">
+                                    <a href="#Portfolio"
+                                        class="flex py-2 px-10 text-base font-semibold text-slate-500 hover:text-primary hover:font-bold transition duration-300 ease-in-out">Portofolio</a>
+                                </li>
+                                <li class="P">
+                                    <a href="#Pengalaman"
+                                        class="flex py-2 px-10 text-base font-semibold text-slate-500 hover:text-primary hover:font-bold transition duration-300 ease-in-out">Pengalaman</a>
+                                </li>
+                                <li class="P">
+                                    <a href="#Blog"
+                                        class="flex py-2 px-10 text-base font-semibold text-slate-500 hover:text-primary hover:font-bold transition duration-300 ease-in-out">Blog</a>
+                                </li>
+                                <li class="P">
+                                    <a href="#Kontak"
+                                        class="flex py-2 px-10 text-base font-semibold text-slate-500 hover:text-primary hover:font-bold transition duration-300 ease-in-out">Kontak</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
             </div>
         </div>
@@ -173,7 +175,7 @@
             <div class="mb-14 px-4  lg:w-1/2">
                 <div class="rounded-lg max-w-full overflow-hidden">
                     <div
-                        class="rounded-lg  shadow-sm overflow-hidden transition duration-500 ease-in-out hover:scale-110">
+                        class="rounded-lg  shadow-sm overflow-hidden transition duration-500 ease-in-out scale-125 hover:scale-150">
                         <img src="dist/img/akemi.jpg" alt="Akemi">
                     </div>
                 </div>
@@ -206,7 +208,7 @@
             <div class="mb-14 px-4  lg:w-1/2">
                 <div class="rounded-lg max-w-full overflow-hidden">
                     <div
-                        class="rounded-lg  shadow-sm overflow-hidden transition duration-500 ease-in-out hover:scale-110">
+                        class="rounded-lg  shadow-sm overflow-hidden transition duration-500 ease-in-out scale-125 hover:scale-150">
                         <img src="dist/img/sakura.jpg" alt="Akemi">
                     </div>
                 </div>
@@ -359,7 +361,7 @@
                     <h1 class="text-slate-300 mb-1">Yogyakarta</h1>
                 </div>
                 <div class="w-full mb-12 -300 md:w-1/2">
-                    <div class="bg-ble-200 w-1/2 md:mx-32">
+                    <div class="bg-ble-200 w-1/2 md:mx-auto">
                         <h1 class="text-slate-50 font-bold text-xl mb-2">Tauntan</h1>
                         <ul>
                             <li class="leading-8">
