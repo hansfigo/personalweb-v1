@@ -1,4 +1,4 @@
 # personal_web_v1
-My Personal Website #1
+My Very First Building Landing Page Using Tailwind CSS
 
-From : Web UNPAS
+Study/Refrece from Web UNPAS Youtube Channel
